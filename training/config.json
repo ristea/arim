@@ -1,0 +1,29 @@
+{
+  "exp_name": "test",
+  "exp_path": "",
+  "train_data_path": "./arim_train.npy",
+  "test_data_path": "./arim_test.npy",
+
+  "use_cuda": false,
+  "no_fft_points": 2048,
+  "no_points": 1024,
+  "fs": 40e6,
+  "nperseg": 102,
+  "noverlap": 96,
+  "window_type": "hamming",
+
+  "normalize_labels": true,
+  "stft": true,
+
+  "lr": 0.00001,
+  "weight_decay": 0.000001,
+  "loss_function": "mse",
+
+  "train_eval_split_ratio": 0.8,
+  "train_epochs": 100,
+  "batch_size": 2,
+  "eval_net_epoch": 1,
+  "save_net_epochs": 2,
+
+  "print_loss": 10
+}
